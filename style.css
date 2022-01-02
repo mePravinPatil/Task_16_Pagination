@@ -1,0 +1,80 @@
+.main {
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .subCard {
+    width: 250px;
+    height: 160px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15%;
+  }
+  .subCard:hover {
+    transform: scale(1.08);
+    transition: 0.2s ease-in-out 0s;
+    box-shadow: 1px 27px 30px -12px rgba(56, 53, 53, 0.54);
+    -webkit-box-shadow: 1px 27px 30px -12px rgba(56, 53, 53, 0.54);
+    -moz-box-shadow: 1px 27px 30px -12px rgba(56, 53, 53, 0.54);
+  }
+  @media (min-width: 500px) {
+    .Container {
+      display: flexbox;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: space-around;
+      gap: 0.5rem;
+    }
+  }
+  @media (min-width: 700px) {
+    .Container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-around;
+      gap: 0.5rem;
+    }
+  }
+  @media (min-width: 800px) {
+    .Container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-around;
+      gap: 0.5rem;
+    }
+  }
+  @media (min-width: 900px) {
+    .Container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      justify-content: space-around;
+      gap: 0.5rem;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  .buttons .btn {
+    margin: 2px;
+    cursor: pointer;
+    background-color: rgb(8, 8, 8);
+    color: white;
+  }
+  .active {
+    background-color: rgb(145, 141, 141) !important;
+    color: white;
+  }
+  .btn:hover {
+    transform: scale(1.25);
+    transition: 0.2s ease-in-out 0s;
+  }
+  img {
+    width: 35%;
+    height: 5rem;
+    padding-top: 10px;
+  }
+  body {
+    background-color: rgb(240, 122, 86);
+  }
